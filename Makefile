@@ -12,19 +12,19 @@ build:
 	@go get gopkg.in/mgo.v2
 	@go get github.com/onsi/ginkgo/ginkgo
 	@go get github.com/onsi/gomega
-	@cd $$GOPATH/src/github.com/snickers/hls && make clean && make dep
+	@cd $$GOPATH/src/github.com/gleidsonnunes/hls && make clean && make dep
 	@go build
 
 run: build
-	DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/snickers/hls/build ./snickers
+	DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/gleidsonnunes/hls/build ./snickers
 
 test: build
 	@go vet ./...
-	@DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/snickers/hls/build ginkgo -r --slowSpecThreshold=20 --succinct .
+	@DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/gleidsonnunes/hls/build ginkgo -r --slowSpecThreshold=20 --succinct .
 
 test_coverage: build
 	@go get github.com/modocache/gover
-	@DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/snickers/hls/build ginkgo -r --slowSpecThreshold=20 --cover --succinct .
+	@DYLD_LIBRARY_PATH=$$GOPATH/src/github.com/gleidsonnunes/hls/build ginkgo -r --slowSpecThreshold=20 --cover --succinct .
 	@gover
 	@mv gover.coverprofile coverage.txt
 
