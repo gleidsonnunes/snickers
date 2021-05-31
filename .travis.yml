@@ -1,8 +1,12 @@
 language: go
+arch:
+  - arm64
+  - amd64
+os: linux
 services: mongodb
 before_install:
   - sudo apt-get update -qq
-  - apt-get -y install -qq mediainfo libavutil-dev libavformat-dev libavcodec-dev libavcodec-dev libavutil-dev libavcodec-dev libavcodec-dev libavutil-dev libavfilter-dev libavformat-dev libavdevice-dev libavfilter-dev libavcodec-dev libavutil-dev libavcodec-dev libavutil-dev libavutil-dev libavcodec-dev libavutil-dev libavformat-dev libavcodec-dev libswresample-dev libswscale-dev libavcodec-dev libavutil-dev 2>&1 > /dev/null
+  - sudo apt-get -y install -qq mediainfo libavutil-dev libavformat-dev libavcodec-dev libavcodec-dev libavutil-dev libavcodec-dev libavcodec-dev libavutil-dev libavfilter-dev libavformat-dev libavdevice-dev libavfilter-dev libavcodec-dev libavutil-dev libavcodec-dev libavutil-dev libavutil-dev libavcodec-dev libavutil-dev libavformat-dev libavcodec-dev libswresample-dev libswscale-dev libavcodec-dev libavutil-dev 2>&1 > /dev/null
   - sudo ldconfig
 install:
   - make build
