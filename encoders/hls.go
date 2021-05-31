@@ -5,7 +5,7 @@ import (
 	"path"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/snickers/hls/segmenter"
+	"github.com/gleidsonnunes/hls/segmenter"
 	"github.com/snickers/snickers/db"
 	"github.com/snickers/snickers/types"
 )
