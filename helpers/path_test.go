@@ -7,8 +7,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/db"
-	"github.com/gleidsonnunes/types"
+	"github.com/gleidsonnunes/snickers2/db"
+	"github.com/gleidsonnunes/snickers2/types"
 )
 
 var _ = Describe("Helpers", func() {

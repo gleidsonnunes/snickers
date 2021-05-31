@@ -7,7 +7,7 @@ import (
 
 	"github.com/cavaliercoder/grab"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/snickers2/db"
 )
 
 // HTTPDownload function downloads sources using

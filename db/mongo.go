@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/types"
+	"github.com/gleidsonnunes/snickers2/types"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 )

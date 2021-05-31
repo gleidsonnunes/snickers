@@ -6,7 +6,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/gleidsonnunes/types"
+	"github.com/gleidsonnunes/snickers2/types"
 )
 
 var _ = Describe("Encoders", func() {
@@ -21,7 +21,7 @@ var _ = Describe("Encoders", func() {
 			}
 			encodeFunc := GetEncodeFunc(job)
 			funcName := runtime.FuncForPC(reflect.ValueOf(encodeFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/gleidsonnunes/encoders.HLSEncode"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/snickers2/encoders.HLSEncode"))
 		})
 
 		It("should return FFMPEGEncode if source is not m3u8", func() {
@@ -34,7 +34,7 @@ var _ = Describe("Encoders", func() {
 			}
 			encodeFunc := GetEncodeFunc(job)
 			funcName := runtime.FuncForPC(reflect.ValueOf(encodeFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/gleidsonnunes/encoders.FFMPEGEncode"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/snickers2/encoders.FFMPEGEncode"))
 		})
 	})
 })

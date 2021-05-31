@@ -9,9 +9,9 @@ import (
 	"github.com/flavioribeiro/gonfig"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/gleidsonnunes/db"
-	"github.com/gleidsonnunes/downloaders"
-	"github.com/gleidsonnunes/types"
+	"github.com/gleidsonnunes/snickers2/db"
+	"github.com/gleidsonnunes/snickers2/downloaders"
+	"github.com/gleidsonnunes/snickers2/types"
 )
 
 func cp(dst, src string) error {
