@@ -7,7 +7,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/gorilla/mux"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/types"
 )
 
 // CreatePreset creates a preset

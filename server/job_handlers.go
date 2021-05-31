@@ -8,8 +8,8 @@ import (
 	"code.cloudfoundry.org/lager"
 	"github.com/dchest/uniuri"
 	"github.com/gorilla/mux"
-	"github.com/gleidsonnunes/gleidsonnunes/pipeline"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/pipeline"
+	"github.com/gleidsonnunes/types"
 )
 
 // DeleteJob deletes a job

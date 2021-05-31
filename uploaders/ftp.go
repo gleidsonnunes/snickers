@@ -11,8 +11,8 @@ import (
 	"code.cloudfoundry.org/lager"
 
 	"github.com/secsy/goftp"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 // FTPUpload uploades the file using FTP. Job Destination should be

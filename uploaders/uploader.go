@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"code.cloudfoundry.org/lager"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/db"
 )
 
 // UploadFunc is a function type for the multiple

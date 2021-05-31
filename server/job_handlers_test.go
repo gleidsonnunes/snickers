@@ -11,8 +11,8 @@ import (
 	"github.com/flavioribeiro/gonfig"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 var _ = Describe("Job handler", func() {

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 type ProgressTracker struct {

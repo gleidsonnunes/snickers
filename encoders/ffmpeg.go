@@ -8,8 +8,8 @@ import (
 	"code.cloudfoundry.org/lager"
 
 	"github.com/3d0c/gmf"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 // FFMPEGEncode function is responsible for encoding the file

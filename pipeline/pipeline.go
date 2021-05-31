@@ -7,12 +7,12 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/downloaders"
-	"github.com/gleidsonnunes/gleidsonnunes/encoders"
-	"github.com/gleidsonnunes/gleidsonnunes/helpers"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
-	"github.com/gleidsonnunes/gleidsonnunes/uploaders"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/downloaders"
+	"github.com/gleidsonnunes/encoders"
+	"github.com/gleidsonnunes/helpers"
+	"github.com/gleidsonnunes/types"
+	"github.com/gleidsonnunes/uploaders"
 )
 
 // StartJob starts the job

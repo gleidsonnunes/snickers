@@ -2,7 +2,7 @@ package db
 
 import (
 	"errors"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/types"
 	"sync"
 )
 

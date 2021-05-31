@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/db"
 )
 
 // GetLocalSourcePath builds the path and filename for

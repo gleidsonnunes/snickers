@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/db"
 
 	"code.cloudfoundry.org/lager"
 )

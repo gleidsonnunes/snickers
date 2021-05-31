@@ -9,8 +9,8 @@ import (
 	"github.com/flavioribeiro/gonfig"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 var _ = Describe("Downloaders", func() {
@@ -35,21 +35,21 @@ var _ = Describe("Downloaders", func() {
 			jobSource := "http://AWSKEY:AWSSECRET@BUCKET.s3.amazonaws.com/source_here.mp4"
 			downloadFunc := GetDownloadFunc(jobSource)
 			funcName := runtime.FuncForPC(reflect.ValueOf(downloadFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/gleidsonnunes/gleidsonnunes/downloaders.S3Download"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/downloaders.S3Download"))
 		})
 
 		It("should return FTPDownload if source starts with ftp://", func() {
 			jobSource := "ftp://login:password@host/source_here.mp4"
 			downloadFunc := GetDownloadFunc(jobSource)
 			funcName := runtime.FuncForPC(reflect.ValueOf(downloadFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/gleidsonnunes/gleidsonnunes/downloaders.FTPDownload"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/downloaders.FTPDownload"))
 		})
 
 		It("should return HTTPDownload if source starts with http://", func() {
 			jobSource := "http://source_here.mp4"
 			downloadFunc := GetDownloadFunc(jobSource)
 			funcName := runtime.FuncForPC(reflect.ValueOf(downloadFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/gleidsonnunes/gleidsonnunes/downloaders.HTTPDownload"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/downloaders.HTTPDownload"))
 		})
 	})
 

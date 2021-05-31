@@ -4,7 +4,7 @@
 <br><br>
 
 [![Build Status](https://travis-ci.org/gleidsonnunes/snickers.svg?branch=master)](https://travis-ci.org/gleidsonnunes/snickers)
-[![codecov](https://codecov.io/gh/gleidsonnunes/gleidsonnunes/branch/master/graph/badge.svg)](https://codecov.io/gh/gleidsonnunes/snickers)
+[![codecov](https://codecov.io/gh/gleidsonnunes/branch/master/graph/badge.svg)](https://codecov.io/gh/gleidsonnunes/snickers)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gleidsonnunes/snickers)](https://goreportcard.com/report/github.com/gleidsonnunes/snickers)
 <br><br>
 Snickers is an open source alternative to the existent cloud encoding services. It is a HTTP API that encode videos.
@@ -42,7 +42,7 @@ $ make test
 
 ## Using the API
 
-Check out the [Wiki](https://github.com/gleidsonnunes/gleidsonnunes/wiki/How-to-Use-the-API) to learn how to use the API.
+Check out the [Wiki](https://github.com/gleidsonnunes/wiki/How-to-Use-the-API) to learn how to use the API.
 
 ## Contributing
 
@@ -54,5 +54,5 @@ Check out the [Wiki](https://github.com/gleidsonnunes/gleidsonnunes/wiki/How-to-
 
 ## License
 
-This code is under [Apache 2.0 License](https://github.com/gleidsonnunes/gleidsonnunes/blob/master/LICENSE).
+This code is under [Apache 2.0 License](https://github.com/gleidsonnunes/blob/master/LICENSE).
 

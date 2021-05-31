@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/types"
 )
 
 //go:generate counterfeiter . Storage

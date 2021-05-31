@@ -5,7 +5,7 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/flavioribeiro/gonfig"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/db"
 )
 
 // DownloadFunc is a function type for the multiple

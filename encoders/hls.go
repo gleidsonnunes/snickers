@@ -6,8 +6,8 @@ import (
 
 	"code.cloudfoundry.org/lager"
 	"github.com/gleidsonnunes/hls/segmenter"
-	"github.com/gleidsonnunes/gleidsonnunes/db"
-	"github.com/gleidsonnunes/gleidsonnunes/types"
+	"github.com/gleidsonnunes/db"
+	"github.com/gleidsonnunes/types"
 )
 
 // HLSEncode function is responsible for encoding adaptive bitrate outputs
