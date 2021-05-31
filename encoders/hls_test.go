@@ -10,8 +10,8 @@ import (
 	"code.cloudfoundry.org/lager/lagertest"
 	"github.com/flavioribeiro/gonfig"
 	"github.com/gleidsonnunes/hls/segmenter"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
+	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/gleidsonnunes/types"
 )
 
 var _ = Describe("HLS Encoder", func() {

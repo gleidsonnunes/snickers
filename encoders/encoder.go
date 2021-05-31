@@ -2,8 +2,8 @@ package encoders
 
 import (
 	"code.cloudfoundry.org/lager"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/types"
+	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/gleidsonnunes/types"
 )
 
 // EncodeFunc is a function type for the multiple

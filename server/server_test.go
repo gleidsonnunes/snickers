@@ -15,8 +15,8 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/server"
+	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/gleidsonnunes/server"
 )
 
 var _ = Describe("Snickers Server", func() {

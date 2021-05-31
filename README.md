@@ -3,15 +3,15 @@
 </p>
 <br><br>
 
-[![Build Status](https://travis-ci.org/snickers/snickers.svg?branch=master)](https://travis-ci.org/snickers/snickers)
-[![codecov](https://codecov.io/gh/snickers/snickers/branch/master/graph/badge.svg)](https://codecov.io/gh/snickers/snickers)
-[![Go Report Card](https://goreportcard.com/badge/github.com/snickers/snickers)](https://goreportcard.com/report/github.com/snickers/snickers)
+[![Build Status](https://travis-ci.org/gleidsonnunes/snickers.svg?branch=master)](https://travis-ci.org/gleidsonnunes/snickers)
+[![codecov](https://codecov.io/gh/gleidsonnunes/gleidsonnunes/branch/master/graph/badge.svg)](https://codecov.io/gh/gleidsonnunes/snickers)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gleidsonnunes/snickers)](https://goreportcard.com/report/github.com/gleidsonnunes/snickers)
 <br><br>
 Snickers is an open source alternative to the existent cloud encoding services. It is a HTTP API that encode videos.
 
 ## Setting Up
 
-First make sure you have [Go](https://golang.org/dl/) and [FFmpeg](http://ffmpeg.org/) with `--enable-shared` installed on your machine. If you don't know what this means, look at how the dependencies are being installed on our [Dockerfile](https://github.com/snickers/snickers-docker/blob/master/Dockerfile).
+First make sure you have [Go](https://golang.org/dl/) and [FFmpeg](http://ffmpeg.org/) with `--enable-shared` installed on your machine. If you don't know what this means, look at how the dependencies are being installed on our [Dockerfile](https://github.com/gleidsonnunes/snickers-docker/blob/master/Dockerfile).
 
 Download the dependencies:
 
@@ -42,7 +42,7 @@ $ make test
 
 ## Using the API
 
-Check out the [Wiki](https://github.com/snickers/snickers/wiki/How-to-Use-the-API) to learn how to use the API.
+Check out the [Wiki](https://github.com/gleidsonnunes/gleidsonnunes/wiki/How-to-Use-the-API) to learn how to use the API.
 
 ## Contributing
 
@@ -54,5 +54,5 @@ Check out the [Wiki](https://github.com/snickers/snickers/wiki/How-to-Use-the-AP
 
 ## License
 
-This code is under [Apache 2.0 License](https://github.com/snickers/snickers/blob/master/LICENSE).
+This code is under [Apache 2.0 License](https://github.com/gleidsonnunes/gleidsonnunes/blob/master/LICENSE).
 

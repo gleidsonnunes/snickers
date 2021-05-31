@@ -9,7 +9,7 @@ import (
 
 	"github.com/flavioribeiro/gonfig"
 	"github.com/secsy/goftp"
-	"github.com/snickers/snickers/db"
+	"github.com/gleidsonnunes/gleidsonnunes/db"
 )
 
 // FTPDownload downloads the file from FTP. Job Source should be

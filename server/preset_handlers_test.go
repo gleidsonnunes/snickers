@@ -16,9 +16,9 @@ import (
 	. "github.com/onsi/gomega"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/db"
-	"github.com/snickers/snickers/server"
-	"github.com/snickers/snickers/types"
+	"github.com/gleidsonnunes/gleidsonnunes/db"
+	"github.com/gleidsonnunes/gleidsonnunes/server"
+	"github.com/gleidsonnunes/gleidsonnunes/types"
 )
 
 var _ = Describe("Preset Handlers", func() {

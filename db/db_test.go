@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/flavioribeiro/gonfig"
-	"github.com/snickers/snickers/types"
+	"github.com/gleidsonnunes/gleidsonnunes/types"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

@@ -14,14 +14,14 @@ var _ = Describe("Uploaders", func() {
 			jobDestination := "http://AWSKEY:AWSSECRET@BUCKET.s3.amazonaws.com/source_here.mp4"
 			uploadFunc := GetUploadFunc(jobDestination)
 			funcName := runtime.FuncForPC(reflect.ValueOf(uploadFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/snickers/snickers/uploaders.S3Upload"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/gleidsonnunes/uploaders.S3Upload"))
 		})
 
 		It("should return FTPUpload if source starts with ftp://", func() {
 			jobDestination := "ftp://login:password@host/source_here.mp4"
 			uploadFunc := GetUploadFunc(jobDestination)
 			funcName := runtime.FuncForPC(reflect.ValueOf(uploadFunc).Pointer()).Name()
-			Expect(funcName).To(Equal("github.com/snickers/snickers/uploaders.FTPUpload"))
+			Expect(funcName).To(Equal("github.com/gleidsonnunes/gleidsonnunes/uploaders.FTPUpload"))
 		})
 	})
 })
